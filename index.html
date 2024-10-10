@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App</title>
+  <!-- Add Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 h-screen flex justify-center items-center">
+
+  <!-- Wrapper -->
+  <div class="bg-white p-8 rounded-lg shadow-xl text-center">
+    <div class="text-2xl font-bold text-gray-800 mb-4">Increment And Decrement</div>
+    <div class="flex items-center justify-between space-x-4">
+      <button onclick="decrement()" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+        -
+      </button>
+      <div id = "counter" class="text-2xl font-semibold text-gray-800">0</div>
+      <button onclick="Increment()" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+        +
+      </button>
+    </div>
+  </div>
+  <script src = "script.js"></script>
+</body>
+</html>
